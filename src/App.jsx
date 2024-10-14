@@ -1,5 +1,6 @@
 import Header from "./components/header/header"
 import Info from "./components/info/Info"
+import InfoSection from "./components/infoSection/infoSection"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header/>
       <Info/>
+      <InfoSection/>
     </>
   )
 }
