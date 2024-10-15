@@ -10,7 +10,7 @@ export const Cabecalho = styled.header`
 `;
 
 export const ContainerCabecalho = styled.div`
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
