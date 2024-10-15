@@ -24,6 +24,16 @@ export const ContainerCard = styled.div`
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1.25rem;
     place-items: center;
+
+    @media screen and (max-width: 740px) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3.5rem;
+    }
+
+    @media screen and (max-width: 552px) {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3.5rem;
+    }
 `;
 
 export const ContainerText = styled.div`

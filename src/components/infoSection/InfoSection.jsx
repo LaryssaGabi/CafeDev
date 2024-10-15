@@ -8,12 +8,12 @@ function InfoSection() {
   return (
     <>
       <Section>
-        <ContainerSection>
+        <ContainerSection data-aos="fade-up" data-aos-delay="100">
           <h1>O café feito para você</h1>
         </ContainerSection>
 
         <ContainerCard>
-          <ContainerServiceCard>
+          <ContainerServiceCard data-aos="fade-up" data-aos-delay="350">
             <CardImg>
               <img src={Americano} />
             </CardImg>
@@ -25,7 +25,7 @@ function InfoSection() {
 
           </ContainerServiceCard>
 
-          <ContainerServiceCard>
+          <ContainerServiceCard data-aos="fade-up" data-aos-delay="200">
             <CardImg>
               <img src={Expresso} />
             </CardImg>
@@ -38,7 +38,7 @@ function InfoSection() {
           </ContainerServiceCard>
 
 
-          <ContainerServiceCard>
+          <ContainerServiceCard data-aos="fade-up" data-aos-delay="500">
             <CardImg>
               <img src={Cappuccino} />
             </CardImg>

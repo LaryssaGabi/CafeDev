@@ -37,7 +37,7 @@ body{
   *:hover::-webkit-scrollbar-thumb,
   *:active::-webkit-scrollbar-thumb,
   *::-webkit-scrollbar-thumb:hover {
-    background-color: #512506de; 
+    background-color: #210e00de; 
   }
  
 `

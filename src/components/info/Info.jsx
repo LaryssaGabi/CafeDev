@@ -6,7 +6,8 @@ function Info() {
   return (
     <>
       <ContainerPrincipal>
-        <ContainerHome>
+        <ContainerHome data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom">
           <ContainerGrid>
 
             <ContainerTextHome>
